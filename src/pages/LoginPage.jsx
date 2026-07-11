@@ -58,7 +58,7 @@ const LoginWithPassword = () => {
                     {error}
                 </div>
             )}
-            <Input label="نام کاربری" type="text" placeholder="milad" value={username} onChange={e => setUsername(e.target.value)} />
+            <Input label="نام کاربری" type="text" placeholder="shabnam" value={username} onChange={e => setUsername(e.target.value)} />
             <Input label="رمز عبور" type="password" placeholder="••••••••" value={password} onChange={e => setPassword(e.target.value)} />
             <SubmitButton loading={status === 'loading'}>ورود</SubmitButton>
         </form>
