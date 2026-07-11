@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer theme {
+    :root {
+        /* === Primary Colors (Pink) === */
+        --color-primary: #C2185B;
+        --color-primary-50: #FCE4F0;
+        --color-primary-100: #FCE4F0;
+        --color-primary-150: #F8BBD9;
+        --color-primary-200: #F48FB5;
+        --color-primary-250: #F06292;
+        --color-primary-300: #EC407A;
+        --color-primary-400: #E91E8C;
+        --color-primary-500: #C2185B;
+        --color-primary-600: #AD1457;
+        --color-primary-700: #880E4F;
+        --color-primary-800: #6A0136;
+        --color-primary-900: #4A0026;
+        --color-primary-1000: #2D0018;
+
+        /* === Secondary Colors (Purple) === */
+        --color-secondary: #7B1FA2;
+        --color-secondary-50: #F3E5F5;
+        --color-secondary-100: #F3E5F5;
+        --color-secondary-150: #E1BEE7;
+        --color-secondary-200: #CE93D8;
+        --color-secondary-250: #BA68C8;
+        --color-secondary-300: #AB47BC;
+        --color-secondary-400: #9C27B0;
+        --color-secondary-500: #7B1FA2;
+        --color-secondary-600: #6A1B9A;
+        --color-secondary-700: #4A148C;
+        --color-secondary-800: #38006B;
+        --color-secondary-900: #260048;
+        --color-secondary-1000: #150030;
+
+        /* === Neutral Colors === */
+        --color-neutral-50: #F7F7F7;
+        --color-neutral-100: #E8E8E8;
+        --color-neutral-150: #D0D0D0;
+        --color-neutral-200: #B8B8B8;
+        --color-neutral-250: #A0A0A0;
+        --color-neutral-300: #888888;
+        --color-neutral-400: #707070;
+        --color-neutral-500: #585858;
+        --color-neutral-600: #484848;
+        --color-neutral-700: #383838;
+        --color-neutral-800: #282828;
+        --color-neutral-900: #181818;
+        --color-neutral-1000: #0A0A0A;
+
+        --color-surface: #FDF5FA;
+        --color-surface-50: rgba(252, 228, 240, 0.4);
+        --color-surface-100: rgba(74, 0, 38, 0.4);
+        --color-surface-200: #6A0136;
+
+        /* === Semantic Colors === */
+        --color-success: #10B981;
+        --color-success-50: #D1FAE5;
+        --color-success-100: #D1FAE5;
+        --color-success-150: #A7F3D0;
+        --color-success-900: #064E3B;
+
+        --color-warning: #FEF3C7;
+        --color-warning-50: #FDE68A;
+        --color-warning-100: #FDE68A;
+        --color-warning-900: #78350F;
+
+        --color-danger-default: #EF4444;
+        --color-danger-50: #FEE2E2;
+        --color-danger-100: #FEE2E2;
+        --color-danger-900: #7F1D1D;
+
+        --color-info-default: #F3E5F5;
+        --color-info-50: #E1BEE7;
+        --color-info-100: #E1BEE7;
+        --color-info-900: #4A148C;
+        --color-info-1000: #260048;
+
+        /* === Tertiary (Coral) === */
+        --color-tertiary-default: #FFE4E4;
+        --color-tertiary-100: #FFBDBD;
+        --color-tertiary-400: #FF6B6B;
+        --color-tertiary-900: #7F1D1D;
+
+        /* === Special === */
+        --color-white: #FFFFFF;
+        --color-black: #000000;
+        --color-gold: #D4A853;
+    }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #e5e7eb;
+    border-radius: 10px;
+}
