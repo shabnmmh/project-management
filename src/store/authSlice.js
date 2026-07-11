@@ -6,8 +6,8 @@ export const loginUser = createAsyncThunk(
         console.log('Attempting to login with:', username, password);
         await new Promise(resolve => setTimeout(resolve, 1000));
 
-        if (username === 'milad' && password === 'password') {
-            const userData = { id: 'user1', name: username, displayName: "Milad Soleymani", token: 'mock-token-123' };
+        if (username === 'shabnam' && password === 'password') {
+            const userData = { id: 'user1', name: username, displayName: "Shabnam Mahmoudi", token: 'mock-token-123' };
             localStorage.setItem('userData', JSON.stringify(userData));
             return userData;
         } else {
