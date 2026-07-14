@@ -14,7 +14,7 @@ import AppDatePicker from "../components/AppDatePicker";
 const MEMBER_PHOTOS = {
     "Milad Soleymani": "https://i.pravatar.cc/150?img=3",
     "Ahmad Hosseini":  "https://i.pravatar.cc/150?img=11",
-    "Sara Hosseini":   "https://i.pravatar.cc/150?img=41",
+    "shabnam mahmoudi":   "https://i.pravatar.cc/150?img=41",
     "Ali Rezaei":      "https://i.pravatar.cc/150?img=14",
     "Mina Karimi":     "https://i.pravatar.cc/150?img=49",
     "Reza Mohammadi":  "https://i.pravatar.cc/150?img=52",
